@@ -1,0 +1,50 @@
+
+Internshala Trainings logo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercise
+Execute the following SQL queries and observe the output on your own.
+
+To add a new attribute ALTER TABLE students ADD semester VARCHAR(255) NOT NULL DEFAULT 2015;
+To delete an existing attribute ALTER TABLE students DROP semester;
+To modify an attribute ALTER TABLE students MODIFY no_of_compartment INT NOT NULL DEFAULT 1;
+To change the name of the attribute ALTER TABLE students CHANGE no_of_compartment compartment INT NOT NULL DEFAULT 1;
+To change the name of the table ALTER TABLE students RENAME TO students_college;
+Once you have executed all the above SQL queries, drop the table using the query given below. DROP TABLE students_college;
+
+Now, again create the table ‘students’ which we created earlier using the SQL query given below as we will be using the same table in our upcoming videos.
+
+CREATE TABLE students (
+    s_no INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    registration_number VARCHAR(255) NOT NULL,
+    gender VARCHAR(255),
+    department VARCHAR(255),
+    no_of_compartment INT NOT NULL DEFAULT 0,
+    PRIMARY KEY(s_no)
+);

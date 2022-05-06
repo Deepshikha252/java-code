@@ -1,0 +1,33 @@
+Exercise
+Now that you have learned how to use JOIN queries, here is an exercise for you. As you have already created a ‘placement’ database (if not already, please create the database and add relevant data) and the tables inside this database. Use the following JOIN queries and observe the output on your own.
+
+Inner Join
+
+SELECT
+    *
+FROM
+    students
+INNER JOIN
+    companies
+ON
+    students.company_id=companies.id;
+Left Join
+
+SELECT
+    *
+FROM
+    students
+LEFT JOIN
+    companies
+ON
+    students.company_id=companies.id;
+Right Join
+
+SELECT
+    *
+FROM
+    students
+RIGHT JOIN
+    companies
+ON
+    students.company_id=companies.id;

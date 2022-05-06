@@ -1,0 +1,50 @@
+select databases;
+create database college;
+create database demo1 2,3,;
+select databases ();
+use college;
+select databases();
+drop database demo1;
+Insert into values ("",59964,"male","cse",1,"abc");
+
+ex- insert into students values  ("1", "rohit", "12345", "male", "cs", 0);
+
+SELECT * FROM `students` WHERE 1
+SELECT * FROM `students`;
+fetching
+
+insert into students(name , registration_id,gender) values("Sourav" , 1230007 , "Male");
+
+INSERT INTO students VALUES (1 , "ABCD" , 12345 , "male");
+
+INSERT INTO students VALUES (1 , "ABCD" , 12345 , "male","cse",1,1)
+
+SELECT * FROM `drivers`
+
+
+
+
+https://www.youtube.com/watch?https://www.tutorialspoint.com/mysql/mysql-data-types.htm
+https://trainings.internshala.com/learn/web-development/screen/27317/forum/questions/%3Ca%20href=
+
+CREATE TABLE companies (
+
+    name VARCHAR(255) NOT NULL,
+    
+    cgpa FLOAT(2,1) NOT NULL DEFAULT 1,
+ ctc FLOAT(2,1) NOT NULL DEFAULT 1,
+location VARCHAR(255) NOT NULL UNIQUE,
+  );
+  
+
+
+CREATE TABLE students (
+
+    name VARCHAR(255) NOT NULL,
+    cgpa FLOAT(2,1) NOT NULL DEFAULT 1,
+  company_id INT NOT NULL AUTO_INCREMENT,
+     PRIMARY KEY(company_id)
+  );
+  
+
+

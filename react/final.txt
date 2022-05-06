@@ -1,0 +1,73 @@
+PG-Life: A Recap
+Hey,
+
+Congratulations on almost completing this training :) 
+
+By now, you have learned seven web technologies (HTML, CSS, Bootstrap, DBMS, PHP, JS, and React). All these web technologies are sufficient to create a functional web application which you have been already creating as a part of your assignments. 
+
+In this module, we will walk through the code of the PG-Life web application so as to sediment our understanding of the code and logic used to create this web application. Also, there will be a few assignments which you need to complete and based on these assignments questions will come in the module test and final test.
+
+We have already discussed in detail the code for the index.html (home page) and dashboard.html (dashboard page). If you want to revisit, you can click here to view the video.
+
+componentDidMount() {
+    const search = window.location.search;
+    const params = new URLSearchParams(search);
+    const city_name = params.get('city');
+ 
+    fetch(`${base_path}/api/get_properties_by_city.php?city=${city_name}`)
+      .then(response => response.json())
+      .then(responseData => {
+        this.setState({
+          properties: responseData
+        });
+    })
+      .catch(error => {
+        console.log('Error fetching and parsing data', error);
+      });
+}
+
+Execute the following commands in the command prompt to create a ‘react-app’ folder inside the PGLife folder. Please ensure that you execute the steps in the same order as given.
+
+1) Windows users: cd\xampp\htdocs\PGLife
+2) Linux (Ubuntu) users: cd /var/www/html/PGLife/
+3) create-react-app react-app
+4) cd react-app
+5) npm start
+
+
+
+Exercise
+Now that you have coded the entire web application - PGLife, it is time to clean up the code before building the website using React.
+
+
+Delete unnecessary files under 'src' folder:
+App.css - we will not be writing new CSS, we will use the existing CSS.
+App.test.js
+index.css
+logo.svg
+reportWebVitals.js
+setupTests.js  
+The src folder should look like this (ignore the temp_files folder).
+
+
+
+From index.js file:
+Remove line: import './index.css';
+Remove line: import reportWebVitals from './reportWebVitals';
+Remove line: reportWebVitals();
+
+Change base_path inside utils.js file.
+The utils.js code should look like this.
+
+
+
+ 
+
+Build
+Open command prompt and go inside the react-app folder. Enter npm run build to build the project.
+This will create a build folder like this.
+
+
+
+Inside the build folder open and format index.html file.
+There are still a few more things we need to take care of which we will see in the next video.

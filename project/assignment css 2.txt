@@ -1,0 +1,31 @@
+Getting Started With Assignment
+Assignment Instructions
+
+To help you get started with the development of the web application, you can download this starting code. Please go through the code thoroughly - understand it line by line and similarly create the remaining web pages of the web application.
+
+What is provided in the starting code?
+
+Complete code of two web pages (Property list page and Property detail page) of PGLife web application.
+
+What do you have to do?
+
+Create two web pages from scratch (Home page and Dashboard page) using HTML, CSS, and Bootstrap.
+
+To create components such as navbar, carousel, breadcrumb, modal, and button - you can use  this link and download/copy the code as such from the web page. Customize the copied code at your convenience and use it to create the web application.
+
+Some CSS files
+
+To create the web application, you will need the following css files (use the below links as such to link these css file to your HTML file):
+
+Bootstrap.min - 
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+
+Font-awesome - This CSS file will help you to create the icons in the modals, amenities section, etc.
+<link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+
+Google fonts - you can use the following CSS for the open sans font used in the web application.
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+
+ 
+
+Apart from this, you can create a ‘common.css’ file where you can include the CSS code that is common for all the web pages. And, to style the individual web pages - you can create their corresponding CSS files such as ‘home.css’ for index or home page and ‘dashboard.css’ for the dashboard page.

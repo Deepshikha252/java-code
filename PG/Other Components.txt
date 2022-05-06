@@ -1,0 +1,32 @@
+
+Internshala Trainings logo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Other Components
+In the previous two topics, you saw how using Bootstrap you can minimally write the CSS code. This is because in Bootstrap you can find numerous classes and components which you can directly use to customize your web application. Using Bootstrap is a convenient and efficient way to style our web page which is done by web developers all over the world.
+
+There are a few more components which are commonly used in a web application such as button, modal, carousel, navbar, and breadcrumb. As you will be using all these components to build our web application, I would like you to give a thorough read to these components (link below) and see how you can create/add these components in a web application. To use these components, you just need to copy the code and customize it as per our application.
+
+Please go through this link (https://getbootstrap.com/docs/5.0/components/accordion/)and read about the following components and how you can create them. This is extremely important as you have to create all these components in your web application as a part of your assignment.
+
+Button
+Modal
+Carousel
+Navbar
+Breadcrumb
+PS - Don’t forget to execute the codes, I can guarantee - It will be fun :)

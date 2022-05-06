@@ -1,0 +1,20 @@
+Exercise
+Create a file named ‘app.js’ inside the ‘js’ folder where you have already created and saved your previous javascript files. We will be using the ‘app.js’ file in the future to create the React part of the final project.
+
+Create a folder inside htdocs with the name react_project. Inside this folder, create a file named index.html with the following content. 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React Project</title>
+        <link rel="stylesheet" href="css/app.css" />
+    </head>
+    <body>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
+Also, create JS and CSS folders for JavaScript and CSS files respectively.
+ 
+
+ext install mgmcdermott.vscode-language-babel(ctrl+p)= enter

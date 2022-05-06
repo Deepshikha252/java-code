@@ -1,0 +1,10 @@
+Exercise
+Like Arrays, even string objects have many special methods and a few of them are listed below. As an exercise, your task is to search and read the given string methods on your own.
+
+
+indexOf()
+slice()
+replace()
+startsWith()
+endsWith()
+include()
